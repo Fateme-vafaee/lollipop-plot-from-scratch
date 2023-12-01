@@ -39,9 +39,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## ROADMAP
-<p id="ROADMAP>
 This R script utilizes the maftools and other libraries to create an interactive visualization of mutations and protein domains for a specified gene. The script reads a Mutation Annotation Format (MAF) file and a protein database, allowing users to explore the distribution of mutations across the gene and visualize protein domains. The resulting plot includes a representation of the entire gene, highlighting different mutation types, and delineating protein domains. The script provides valuable insights into the mutation landscape and protein structure of the specified gene.
-  </p>
 
 ## Languages Used
 
