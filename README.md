@@ -17,7 +17,7 @@
 
 
 <div align="center">
-  <img src="logo.PNG" alt="Alt text">
+  <img src="logo.png" alt="Alt text">
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -25,22 +25,15 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Part A - Downloading and Analyzing and Quality Control of E. Coli
-WGS Data</a>
+      <a href="#ROADMAP">ROADMAP</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#Usage">Usage</a></li>
       </ul>
     </li>
     <li>
-      <a href="#about-the-project">Part B - Denovo Genome Assembly</a>
+      <a href="#Customization">Customization</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-	<li>
-      <a href="#about-the-project">Part C - Mapping & variant calling</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#Note">Note</a></li>
       </ul>
     </li>
   </ol>
@@ -49,8 +42,8 @@ WGS Data</a>
 
 
 <!-- ABOUT THE PROJECT -->
+<span id="ROADMAP></span>
 ## ROADMAP
-
 This R script utilizes the maftools and other libraries to create an interactive visualization of mutations and protein domains for a specified gene. The script reads a Mutation Annotation Format (MAF) file and a protein database, allowing users to explore the distribution of mutations across the gene and visualize protein domains. The resulting plot includes a representation of the entire gene, highlighting different mutation types, and delineating protein domains. The script provides valuable insights into the mutation landscape and protein structure of the specified gene.
    
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -64,11 +57,8 @@ R Packages
 
 
 <!-- GETTING STARTED -->
-## Getting Started
-
-  
 ### Usage:
-<ol>
+<ol id="Usage">
   <li>Install required libraries (maftools, stringr).</li>
   <li>Load mutation data (MAF file) and protein database (prot_db.RData).</li>
   <li>Customize the gene of interest (Gene_Name and Ref_seq).</li>
@@ -77,13 +67,13 @@ R Packages
 </ol>
 
 ### Customization:
-<ul>
+<ul id="Customization">
   <li>Adjust plot coordinates, colors, and styles to suit specific preferences.</li>
   <li>Easily apply the script to different genes by updating the Gene_Name and Ref_seq variables.</li>
 </ul>
 
 ### Note:
-<ul>
+<ul id="Note">
   <li>This tool is particularly useful for researchers and bioinformaticians working with cancer genomics data.</li>
   <li>Ensure that the required data files are properly formatted and available before running the script.</li>
 </ul>
@@ -97,7 +87,7 @@ Feel free to tailor the title and description based on the specific features and
 <!-- CONTACT -->
 ## Contact
 
-Fereshteh Noroozi - @LinkedIn 
+vafaeeshaarbaf@gmail.com
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
